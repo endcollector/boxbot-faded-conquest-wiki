@@ -1,0 +1,18 @@
+name: Feature Request
+description: A report form for your ideas of things that should be added no matter how big of a feature it is.
+labels: Enhancement
+body:
+ - type: textarea
+   attributes:
+    label: Feature Description
+    description: What do you want to be added? Describe it to us!
+    placeholder: My idea is...
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: Other Info
+    description: Do You Have Anything Else To Add?
+    placeholder: Some other info is...
+   validations:
+     required: false
