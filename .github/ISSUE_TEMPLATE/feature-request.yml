@@ -12,7 +12,7 @@ body:
  - type: textarea
    attributes:
     label: Other Info
-    description: Do You Have Anything Else To Add?
+    description: Do you have anything else to add?
     placeholder: Some other info is...
    validations:
      required: false
