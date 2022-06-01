@@ -1,0 +1,27 @@
+name: Bug Report
+description: A report form for bugs to help us make this mod a better experience 
+labels: Bug
+body:
+ - type: textarea
+   attributes:
+    label: Bug Description
+    description: Tell us what the bug is about / what went wrong
+    placeholder: My bug is...
+   validations:
+    required: true
+ - type: textarea
+   attributes:
+    label: How Do You Reproduce This Bug?
+    description: Tell us the steps on how to reproduce this bug, if you can't don't write anything
+    placeholder: |
+      1:
+      2:
+   validations:
+     required: false
+ - type: textarea
+   attributes:
+    label: Other Info
+    description: Do You Have Anything Else To Add? Like Logs etc?
+    placeholder: Some other info is...
+   validations:
+     required: false
